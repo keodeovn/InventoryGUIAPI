@@ -1,0 +1,3 @@
+name: InventoryGUIAPI
+version: 1.0
+main: kdvn.invgui.main.MainInventoryGUI
