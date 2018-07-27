@@ -35,7 +35,7 @@ public class InvGUISlot {
 		return dataMap.containsKey(data);
 	}
 	
-	public Object getDate(String key) {
+	public Object getData(String key) {
 		return dataMap.get(key);
 	}
 	
