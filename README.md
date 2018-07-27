@@ -1,1 +1,2 @@
-InventoryGUIAPI
+InventoryGUIAPI by KeoDeoVN
+
