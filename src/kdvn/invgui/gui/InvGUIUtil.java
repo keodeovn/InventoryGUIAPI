@@ -17,7 +17,7 @@ public class InvGUIUtil {
 		// ADD INV DATA TO PLAYER
 		player.setMetadata(METADATA, new FixedMetadataValue(MainInventoryGUI.plugin, gui));
 		// LOAD ITEM
-		Bukkit.getScheduler().runTask(MainInventoryGUI.plugin, () -> {
+		Bukkit.getScheduler().runTaskAsynchronously(MainInventoryGUI.plugin, () -> {
 			gui.getGuiSlots().forEach((slot, invSlot) -> {
 				inv.setItem(slot, invSlot.getItem());
 			});
